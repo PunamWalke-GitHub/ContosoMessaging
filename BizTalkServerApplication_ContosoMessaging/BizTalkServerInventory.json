@@ -1,0 +1,19 @@
+﻿{
+  "$schema": "http://json.schemastore.org/BizTalkServerApplicationSchema",
+  "BizTalkAssemblies": [
+    {
+      "Name": "ContosoMessaging",
+      "Path": "C:\\Users\\dtladmin\\Desktop\\BizTalk\\BizTalk\\Labs\\Lab 1\\Completed\\ContosoMessaging\\ContosoMessaging\\bin\\Debug\\ContosoMessaging.dll"
+    }
+  ],
+  "BindingsFiles": [
+    {
+      "Name": "Bindings",
+      "Path": "C:\\Users\\dtladmin\\Desktop\\BizTalk\\BizTalk\\Labs\\Lab 1\\Completed\\Bindings.xml"
+    }
+  ],
+  "DeploymentSequence": [
+    "ContosoMessaging",
+    "Bindings"
+  ]
+}

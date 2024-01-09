@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoMessaging", "ContosoMessaging\ContosoMessaging.btproj", "{D74E9D74-B233-493D-A625-DD3BB9C38520}"
+EndProject
+Project("{8727FEA9-91DB-4FB1-952D-E73D021F4F57}") = "BizTalkServerApplication_ContosoMessaging", "BizTalkServerApplication_ContosoMessaging\BizTalkServerApplication_ContosoMessaging.btaproj", "{CF4A88F3-DC11-4895-ADC6-634EF230A1B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D74E9D74-B233-493D-A625-DD3BB9C38520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74E9D74-B233-493D-A625-DD3BB9C38520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74E9D74-B233-493D-A625-DD3BB9C38520}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D74E9D74-B233-493D-A625-DD3BB9C38520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74E9D74-B233-493D-A625-DD3BB9C38520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74E9D74-B233-493D-A625-DD3BB9C38520}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CF4A88F3-DC11-4895-ADC6-634EF230A1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4A88F3-DC11-4895-ADC6-634EF230A1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4A88F3-DC11-4895-ADC6-634EF230A1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4A88F3-DC11-4895-ADC6-634EF230A1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2235FC9-0499-45E3-95C1-7C04308379D1}
+	EndGlobalSection
+EndGlobal
